@@ -27,7 +27,7 @@ class _Controller {
     }
     if (_controller.text.length < 3) {
       gameInfo.isInvalid = true;
-      gameInfo.errorMessage = 'Invalid: must be three digits';
+      gameInfo.errorMessage = 'Invalid: must be in three digits';
     }
 
     String data = _controller.text.toString();
